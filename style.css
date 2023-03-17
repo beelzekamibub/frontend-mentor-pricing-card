@@ -1,0 +1,122 @@
+html{
+  box-sizing:border-box;
+  font-family:"karla";
+  font-size:16px;
+}
+
+h2,h4,p{
+  margin:0;
+}
+
+body{
+  padding:20px;
+}
+
+*,*:before,*:after{
+  box-sizing:inherit;
+}
+
+#card{
+  width: 590px;
+  height: 400px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius:5px;
+  overflow:hidden;
+  
+}
+
+#top{
+  width :100%;
+  height: 45%;
+  padding: 25px;
+}
+
+#bottom{
+  width :100%;
+  height: 655%;
+  color:white;
+}
+
+#bottom-left{
+  display:inline-block;
+  width :50%;
+  height: 100%;
+  vertical-align:top;
+  background-color:#2bb4b1;
+  padding: 25px;
+}
+
+#bottom-right{
+  display:inline-block;
+  width :50%;
+  height: 100%;
+  vertical-align:top;
+  background-color:#49bebc;
+  padding: 25px;
+}
+
+#top h2{
+  margin-bottom:20px;
+  color:#2bb4b1;
+}
+
+#top h4{
+  margin-bottom:10px;
+  color: #C0DF34;
+}
+
+#top p{
+
+  color:#98a6bd;
+}
+
+button{
+  background-color:#C0DF34;
+  color:white;
+  border:none;
+  padding:10px;
+  border-radius:5px;
+  width:100%;
+}
+
+button:hover{
+  cursor:pointer;
+  background-color:#A8C42B;
+  transform: scale(1.02);
+}
+
+#money {
+  display:inline-block;
+  font-size:2rem;
+  font-weight:700;
+}
+
+#rate{
+  position:relative;
+  top:-6px;
+  font-size:0.9rem;
+  opacity:0.6;
+  margin-left:5px;
+  display:inline-block;
+}
+
+#price{
+  margin-bottom:10px;
+}
+
+#bottom-left h4{
+  margin-bottom:15px;
+}
+
+#bottom-left p{
+  font-size:0.8rem;
+  margin-bottom:34px
+}
+
+#bottom-right ul{
+  padding:0;
+  list-style:none;
+  opacity:0.8;
+  font-size:0.9rem;
+}
+
