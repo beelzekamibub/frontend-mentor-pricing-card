@@ -120,3 +120,9 @@ button:hover{
   font-size:0.9rem;
 }
 
+@media (max-width: 675px){
+  #bottom-left,#card,#bottom-right{
+    width:100%;
+    height:auto;
+  }
+}
